@@ -1,0 +1,167 @@
+:root {
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  height: 10vh;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+nav h3 {
+  font-size: 1rem;
+}
+
+nav h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container {
+  width: 30%;
+  border: 1px solid #333;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+
+main .container .icon {
+  text-align: center;
+  margin-bottom: 5px;
+}
+main .container p {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+main .container .fields {
+  width: 100%;
+  position: relative;
+}
+
+main .container .fields .input-group {
+  display: flex;
+  margin-top: 15px;
+}
+
+main .container .fields .input-group .input-icon {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+}
+
+main .container .fields .input-group input[type="text"].login-txt {
+  width: 100%;
+  padding: 10px 30px;
+  position: relative;
+  border: none;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+  outline: none;
+}
+main .container .fields .input-group input[type="password"].login-txt {
+  width: 100%;
+  padding: 10px 30px;
+  position: relative;
+  border: none;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+  outline: none;
+}
+
+main .container .fields button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 94, 94);
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+main .container .link {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+}
+
+
+.tbl_full {
+  width: 100%;
+}
+
+.tbl_full.padding-cell tr td {
+  padding: 20px 0px;
+}
+
+.radio-padding {
+  margin: 0 5px;
+}
+
+.tbl_full.padding-cell tr td input[type="text"] {
+  width: 100%;
+  padding: 2px 4px;
+}
+.tbl_full.padding-cell tr td input[type="date"] {
+  width: 100%;
+  padding: 2px 4px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  border-radius: 5px;
+}
+.tbl_full.padding-cell tr td select {
+  width: 100%;
+  padding: 2px 4px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  border-radius: 5px;
+}
+
+.registration {
+margin-top: 10vh;
+}
+.registration .button-center {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px;
+}
+.registration .button-center button {
+  width: 70%;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 94, 94);
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.fa-arrow-left {
+  color: #fff;
+  margin: 0 10px 0 0;
+}
